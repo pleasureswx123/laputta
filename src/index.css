@@ -285,7 +285,7 @@ body {
 .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
 .service-card {
   background: rgba(255,255,255,0.025); border: 1px solid var(--border-dim);
-  padding: 2.5rem 2rem; border-radius: 4px; position: relative; overflow: hidden;
+  padding: 2rem; border-radius: 4px; position: relative; overflow: hidden;
 }
 .service-card::before {
   content: ''; position: absolute; inset: 0;
@@ -294,7 +294,7 @@ body {
 }
 .service-card:hover { border-color: var(--border); background: rgba(255,255,255,0.04); transform: translateY(-4px); }
 .service-card:hover::before { opacity: 1; }
-.service-number { font-family: 'Share Tech Mono', monospace; font-size: 0.7rem; color: var(--gold); letter-spacing: 0.2em; margin-bottom: 1.2rem; }
+.service-number { font-family: 'Share Tech Mono', monospace; font-size: 0.7rem; color: var(--gold); letter-spacing: 0.2em; margin-bottom: 0.2rem; }
 .service-icon { font-size: 2rem; margin-bottom: 1rem; }
 .service-card h3 { font-family: 'Noto Serif SC', serif; font-size: 1.15rem; color: var(--text-bright); margin-bottom: 0.8rem; font-weight: 600; }
 .service-card p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.8; }
