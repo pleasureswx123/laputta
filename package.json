@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "powershell -ExecutionPolicy Bypass -File ./deploy.ps1",
+    "deploy:skip-build": "powershell -ExecutionPolicy Bypass -File ./deploy.ps1 -SkipBuild",
+    "deploy:dry-run": "powershell -ExecutionPolicy Bypass -File ./deploy.ps1 -DryRun"
   },
   "dependencies": {
     "react": "^18.3.1",
