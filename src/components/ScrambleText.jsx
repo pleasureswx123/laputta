@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from 'react'
 // Remotion-inspired: character-by-character reveal with scramble decode effect
 // Analogous to Remotion's useCurrentFrame() + string-slicing text animation
 // Character pool: Chinese radicals + geometric symbols matching the brand
-const POOL = '日月火水木金土天地人心道义礼仁智信勇廉耻▲△◇◆◈⬡⬟✦●○■□∞≡≈∮∫∑∏'
+// const POOL = '日月火水木金土天地人心道义礼仁智信勇廉耻▲△◇◆◈⬡⬟✦●○■□∞≡≈∮∫∑∏'
+const POOL = '动画内容制作技术开发与服务影视摄影发行▲△◇◆◈⬡⬟✦●○■□∞≡≈∮∫∑∏'
 
 function randChar() {
   return POOL[Math.floor(Math.random() * POOL.length)]
